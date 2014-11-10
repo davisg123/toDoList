@@ -14,6 +14,7 @@
 		727E8B251A114BE900C48BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727E8B241A114BE900C48BAD /* Images.xcassets */; };
 		727E8B281A114BE900C48BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727E8B261A114BE900C48BAD /* LaunchScreen.xib */; };
 		727E8B341A114BE900C48BAD /* toDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B331A114BE900C48BAD /* toDoListTests.m */; };
+		727E8B401A114ECA00C48BAD /* DLItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B3F1A114ECA00C48BAD /* DLItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		727E8B2D1A114BE900C48BAD /* toDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		727E8B321A114BE900C48BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		727E8B331A114BE900C48BAD /* toDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toDoListTests.m; sourceTree = "<group>"; };
+		727E8B3E1A114ECA00C48BAD /* DLItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLItem.h; sourceTree = "<group>"; };
+		727E8B3F1A114ECA00C48BAD /* DLItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		727E8B161A114BE900C48BAD /* toDoList */ = {
 			isa = PBXGroup;
 			children = (
+				727E8B3D1A114E6400C48BAD /* Data Model */,
 				727E8B1B1A114BE900C48BAD /* AppDelegate.h */,
 				727E8B1C1A114BE900C48BAD /* AppDelegate.m */,
 				727E8B1E1A114BE900C48BAD /* ViewController.h */,
@@ -117,6 +121,15 @@
 				727E8B321A114BE900C48BAD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		727E8B3D1A114E6400C48BAD /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				727E8B3E1A114ECA00C48BAD /* DLItem.h */,
+				727E8B3F1A114ECA00C48BAD /* DLItem.m */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +176,7 @@
 		727E8B0C1A114BE800C48BAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DL;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Davis Gossage";
 				TargetAttributes = {
@@ -221,6 +235,7 @@
 			files = (
 				727E8B201A114BE900C48BAD /* ViewController.m in Sources */,
 				727E8B1D1A114BE900C48BAD /* AppDelegate.m in Sources */,
+				727E8B401A114ECA00C48BAD /* DLItem.m in Sources */,
 				727E8B1A1A114BE900C48BAD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
