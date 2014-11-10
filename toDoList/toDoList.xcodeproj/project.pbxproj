@@ -18,6 +18,7 @@
 		727E8B431A114FC500C48BAD /* DLSportsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B421A114FC500C48BAD /* DLSportsItem.m */; };
 		727E8B461A114FD200C48BAD /* DLSchoolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B451A114FD200C48BAD /* DLSchoolItem.m */; };
 		727E8B491A114FDD00C48BAD /* DLWorkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B481A114FDD00C48BAD /* DLWorkItem.m */; };
+		72A70F791A1157F700A77220 /* DLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A70F781A1157F700A77220 /* DLDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		727E8B451A114FD200C48BAD /* DLSchoolItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSchoolItem.m; sourceTree = "<group>"; };
 		727E8B471A114FDD00C48BAD /* DLWorkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLWorkItem.h; sourceTree = "<group>"; };
 		727E8B481A114FDD00C48BAD /* DLWorkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLWorkItem.m; sourceTree = "<group>"; };
+		72A70F771A1157F700A77220 /* DLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLDataModel.h; sourceTree = "<group>"; };
+		72A70F781A1157F700A77220 /* DLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 		727E8B3D1A114E6400C48BAD /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				72A70F771A1157F700A77220 /* DLDataModel.h */,
+				72A70F781A1157F700A77220 /* DLDataModel.m */,
 				727E8B3E1A114ECA00C48BAD /* DLItem.h */,
 				727E8B3F1A114ECA00C48BAD /* DLItem.m */,
 				727E8B411A114FC500C48BAD /* DLSportsItem.h */,
@@ -251,6 +256,7 @@
 				727E8B201A114BE900C48BAD /* ViewController.m in Sources */,
 				727E8B1D1A114BE900C48BAD /* AppDelegate.m in Sources */,
 				727E8B401A114ECA00C48BAD /* DLItem.m in Sources */,
+				72A70F791A1157F700A77220 /* DLDataModel.m in Sources */,
 				727E8B491A114FDD00C48BAD /* DLWorkItem.m in Sources */,
 				727E8B1A1A114BE900C48BAD /* main.m in Sources */,
 				727E8B461A114FD200C48BAD /* DLSchoolItem.m in Sources */,
@@ -447,6 +453,7 @@
 				727E8B391A114BE900C48BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		727E8B3A1A114BE900C48BAD /* Build configuration list for PBXNativeTarget "toDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +462,7 @@
 				727E8B3C1A114BE900C48BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
