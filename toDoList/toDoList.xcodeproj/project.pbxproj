@@ -15,6 +15,9 @@
 		727E8B281A114BE900C48BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727E8B261A114BE900C48BAD /* LaunchScreen.xib */; };
 		727E8B341A114BE900C48BAD /* toDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B331A114BE900C48BAD /* toDoListTests.m */; };
 		727E8B401A114ECA00C48BAD /* DLItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B3F1A114ECA00C48BAD /* DLItem.m */; };
+		727E8B431A114FC500C48BAD /* DLSportsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B421A114FC500C48BAD /* DLSportsItem.m */; };
+		727E8B461A114FD200C48BAD /* DLSchoolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B451A114FD200C48BAD /* DLSchoolItem.m */; };
+		727E8B491A114FDD00C48BAD /* DLWorkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B481A114FDD00C48BAD /* DLWorkItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		727E8B331A114BE900C48BAD /* toDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toDoListTests.m; sourceTree = "<group>"; };
 		727E8B3E1A114ECA00C48BAD /* DLItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLItem.h; sourceTree = "<group>"; };
 		727E8B3F1A114ECA00C48BAD /* DLItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLItem.m; sourceTree = "<group>"; };
+		727E8B411A114FC500C48BAD /* DLSportsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSportsItem.h; sourceTree = "<group>"; };
+		727E8B421A114FC500C48BAD /* DLSportsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSportsItem.m; sourceTree = "<group>"; };
+		727E8B441A114FD200C48BAD /* DLSchoolItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSchoolItem.h; sourceTree = "<group>"; };
+		727E8B451A114FD200C48BAD /* DLSchoolItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSchoolItem.m; sourceTree = "<group>"; };
+		727E8B471A114FDD00C48BAD /* DLWorkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLWorkItem.h; sourceTree = "<group>"; };
+		727E8B481A114FDD00C48BAD /* DLWorkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLWorkItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +137,12 @@
 			children = (
 				727E8B3E1A114ECA00C48BAD /* DLItem.h */,
 				727E8B3F1A114ECA00C48BAD /* DLItem.m */,
+				727E8B411A114FC500C48BAD /* DLSportsItem.h */,
+				727E8B421A114FC500C48BAD /* DLSportsItem.m */,
+				727E8B441A114FD200C48BAD /* DLSchoolItem.h */,
+				727E8B451A114FD200C48BAD /* DLSchoolItem.m */,
+				727E8B471A114FDD00C48BAD /* DLWorkItem.h */,
+				727E8B481A114FDD00C48BAD /* DLWorkItem.m */,
 			);
 			name = "Data Model";
 			sourceTree = "<group>";
@@ -236,7 +251,10 @@
 				727E8B201A114BE900C48BAD /* ViewController.m in Sources */,
 				727E8B1D1A114BE900C48BAD /* AppDelegate.m in Sources */,
 				727E8B401A114ECA00C48BAD /* DLItem.m in Sources */,
+				727E8B491A114FDD00C48BAD /* DLWorkItem.m in Sources */,
 				727E8B1A1A114BE900C48BAD /* main.m in Sources */,
+				727E8B461A114FD200C48BAD /* DLSchoolItem.m in Sources */,
+				727E8B431A114FC500C48BAD /* DLSportsItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
