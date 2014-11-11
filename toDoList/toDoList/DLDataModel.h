@@ -7,9 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DLItem.h"
 
 @interface DLDataModel : NSObject
 
 + (DLDataModel*)sharedInstance;
+
+- (NSMutableArray*)currentList;
+
+- (void)addItemToList:(DLItem *)item;
 
 @end
