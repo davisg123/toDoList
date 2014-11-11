@@ -19,6 +19,7 @@
 		727E8B461A114FD200C48BAD /* DLSchoolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B451A114FD200C48BAD /* DLSchoolItem.m */; };
 		727E8B491A114FDD00C48BAD /* DLWorkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B481A114FDD00C48BAD /* DLWorkItem.m */; };
 		72A70F791A1157F700A77220 /* DLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A70F781A1157F700A77220 /* DLDataModel.m */; };
+		72F5FC8A1A11971700E33DD0 /* DLItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F5FC891A11971700E33DD0 /* DLItemTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		72A70F771A1157F700A77220 /* DLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLDataModel.h; sourceTree = "<group>"; };
 		72A70F781A1157F700A77220 /* DLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLDataModel.m; sourceTree = "<group>"; };
 		72F5FC851A118D1500E33DD0 /* UIColor+DLPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DLPalette.h"; sourceTree = "<group>"; };
+		72F5FC881A11971700E33DD0 /* DLItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLItemTableViewCell.h; sourceTree = "<group>"; };
+		72F5FC891A11971700E33DD0 /* DLItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLItemTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				72F5FC851A118D1500E33DD0 /* UIColor+DLPalette.h */,
+				72F5FC881A11971700E33DD0 /* DLItemTableViewCell.h */,
+				72F5FC891A11971700E33DD0 /* DLItemTableViewCell.m */,
 			);
 			name = Interface;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				727E8B401A114ECA00C48BAD /* DLItem.m in Sources */,
 				72A70F791A1157F700A77220 /* DLDataModel.m in Sources */,
 				727E8B491A114FDD00C48BAD /* DLWorkItem.m in Sources */,
+				72F5FC8A1A11971700E33DD0 /* DLItemTableViewCell.m in Sources */,
 				727E8B1A1A114BE900C48BAD /* main.m in Sources */,
 				727E8B461A114FD200C48BAD /* DLSchoolItem.m in Sources */,
 				727E8B431A114FC500C48BAD /* DLSportsItem.m in Sources */,
