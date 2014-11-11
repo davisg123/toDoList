@@ -14,7 +14,7 @@
     IBOutlet UITableView *listTableView;
     UIVisualEffectView *blurEffectView;
     UITapGestureRecognizer *touchOnView;
-    UIView *addItemView;
+    DLAddItemView *addItemView;
 }
 
 @end
@@ -47,6 +47,7 @@
         addItemView.alpha = 0.0;
         [self.view addSubview:addItemView];
         addItemView.center = self.view.center;
+        addItemView.delegate = self;
         
         [UIView animateWithDuration:.2 animations:^{
             blurEffectView.alpha = 1.0;
@@ -76,6 +77,13 @@
         [blurEffectView removeFromSuperview];
         blurEffectView = nil;
     }];
+}
+
+#pragma mark DLAddItemView delegate
+
+- (void)itemWasAdded{
+    [listTableView reloadData];
+    [self hidePopup];
 }
 
 

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DLAddItemView.h"
 
-@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate, DLAddItemViewDelegate>
 
 
 @end
