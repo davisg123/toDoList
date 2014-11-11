@@ -12,6 +12,9 @@
 
 @interface ViewController (){
     IBOutlet UITableView *listTableView;
+    UIVisualEffectView *blurEffectView;
+    UITapGestureRecognizer *touchOnView;
+    UIView *addItemView;
 }
 
 @end
@@ -27,6 +30,54 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)addItemButton:(id)sender{
+    if (!blurEffectView){
+        //blur view
+        UIVisualEffect *blurEffect;
+        blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+        
+        blurEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+        blurEffectView.alpha = 0.0;
+        
+        blurEffectView.frame = listTableView.bounds;
+        [listTableView addSubview:blurEffectView];
+        
+        addItemView = [[[NSBundle mainBundle] loadNibNamed:@"AddItemView" owner:self options:nil] objectAtIndex:0];
+        addItemView.alpha = 0.0;
+        [self.view addSubview:addItemView];
+        addItemView.center = self.view.center;
+        
+        [UIView animateWithDuration:.2 animations:^{
+            blurEffectView.alpha = 1.0;
+            addItemView.alpha = 1.0;
+        }];
+        
+        //detect touch on blur view
+        touchOnView = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hidePopup)];
+        
+        // Set required taps and number of touches
+        [touchOnView setNumberOfTapsRequired:1];
+        [touchOnView setNumberOfTouchesRequired:1];
+        
+        // Add the gesture to the view
+        [blurEffectView addGestureRecognizer:touchOnView];
+    }
+}
+
+- (void)hidePopup{
+    [blurEffectView removeGestureRecognizer:touchOnView];
+    [UIView animateWithDuration:.2 animations:^{
+        blurEffectView.alpha = 0.0;
+        addItemView.alpha = 0.0;
+    } completion:^(BOOL finished) {
+        [addItemView removeFromSuperview];
+        addItemView = nil;
+        [blurEffectView removeFromSuperview];
+        blurEffectView = nil;
+    }];
+}
+
 
 #pragma mark tableview data source
 

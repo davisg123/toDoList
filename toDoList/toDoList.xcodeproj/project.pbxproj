@@ -19,6 +19,7 @@
 		727E8B461A114FD200C48BAD /* DLSchoolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B451A114FD200C48BAD /* DLSchoolItem.m */; };
 		727E8B491A114FDD00C48BAD /* DLWorkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E8B481A114FDD00C48BAD /* DLWorkItem.m */; };
 		72A70F791A1157F700A77220 /* DLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A70F781A1157F700A77220 /* DLDataModel.m */; };
+		72EF8EEB1A11CD1400788249 /* AddItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72EF8EEA1A11CD1400788249 /* AddItemView.xib */; };
 		72F5FC8A1A11971700E33DD0 /* DLItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F5FC891A11971700E33DD0 /* DLItemTableViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		727E8B481A114FDD00C48BAD /* DLWorkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLWorkItem.m; sourceTree = "<group>"; };
 		72A70F771A1157F700A77220 /* DLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLDataModel.h; sourceTree = "<group>"; };
 		72A70F781A1157F700A77220 /* DLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLDataModel.m; sourceTree = "<group>"; };
+		72EF8EEA1A11CD1400788249 /* AddItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddItemView.xib; sourceTree = "<group>"; };
 		72F5FC851A118D1500E33DD0 /* UIColor+DLPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DLPalette.h"; sourceTree = "<group>"; };
 		72F5FC881A11971700E33DD0 /* DLItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLItemTableViewCell.h; sourceTree = "<group>"; };
 		72F5FC891A11971700E33DD0 /* DLItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLItemTableViewCell.m; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		72F5FC841A118CF300E33DD0 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				72EF8EEA1A11CD1400788249 /* AddItemView.xib */,
 				72F5FC851A118D1500E33DD0 /* UIColor+DLPalette.h */,
 				72F5FC881A11971700E33DD0 /* DLItemTableViewCell.h */,
 				72F5FC891A11971700E33DD0 /* DLItemTableViewCell.m */,
@@ -251,6 +254,7 @@
 				727E8B231A114BE900C48BAD /* Main.storyboard in Resources */,
 				727E8B281A114BE900C48BAD /* LaunchScreen.xib in Resources */,
 				727E8B251A114BE900C48BAD /* Images.xcassets in Resources */,
+				72EF8EEB1A11CD1400788249 /* AddItemView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
