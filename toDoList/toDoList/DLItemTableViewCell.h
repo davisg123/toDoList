@@ -14,4 +14,7 @@
 @property IBOutlet UIImageView *iconImageView;
 @property IBOutlet UITextView *descriptionTextView;
 
+- (void)showDescription;
+- (void)hideDescription;
+
 @end

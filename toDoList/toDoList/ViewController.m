@@ -104,4 +104,18 @@
     return cell;
 }
 
+#pragma mark tableview delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    DLItemTableViewCell *cell = (DLItemTableViewCell*)[tableView cellForRowAtIndexPath:indexPath];
+    [cell showDescription];
+}
+
+- (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSIndexPath *previousSelection = [tableView indexPathForSelectedRow];
+    DLItemTableViewCell *cell = (DLItemTableViewCell*)[tableView cellForRowAtIndexPath:previousSelection];
+    [cell hideDescription];
+    return indexPath;
+}
+
 @end
