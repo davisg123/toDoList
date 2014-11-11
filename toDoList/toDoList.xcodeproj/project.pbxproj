@@ -55,6 +55,7 @@
 		727E8B481A114FDD00C48BAD /* DLWorkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLWorkItem.m; sourceTree = "<group>"; };
 		72A70F771A1157F700A77220 /* DLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLDataModel.h; sourceTree = "<group>"; };
 		72A70F781A1157F700A77220 /* DLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLDataModel.m; sourceTree = "<group>"; };
+		72F5FC851A118D1500E33DD0 /* UIColor+DLPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DLPalette.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		727E8B161A114BE900C48BAD /* toDoList */ = {
 			isa = PBXGroup;
 			children = (
+				72F5FC841A118CF300E33DD0 /* Interface */,
 				727E8B3D1A114E6400C48BAD /* Data Model */,
 				727E8B1B1A114BE900C48BAD /* AppDelegate.h */,
 				727E8B1C1A114BE900C48BAD /* AppDelegate.m */,
@@ -150,6 +152,14 @@
 				727E8B481A114FDD00C48BAD /* DLWorkItem.m */,
 			);
 			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		72F5FC841A118CF300E33DD0 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				72F5FC851A118D1500E33DD0 /* UIColor+DLPalette.h */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

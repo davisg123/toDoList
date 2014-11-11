@@ -7,13 +7,14 @@
 //
 
 #import "DLSchoolItem.h"
+#import "UIColor+DLPalette.h"
 
 @implementation DLSchoolItem
 
 - (id)initWithTitle:(NSString*)title andDescription:(NSString *)description{
     self = [super init];
     self.icon  = [UIImage imageNamed:@"work"];
-    self.backgroundColor = [UIColor redColor];
+    self.backgroundColor = [UIColor DLRed];
     self.itemDescription = description;
     self.itemTitle = title;
     return self;
