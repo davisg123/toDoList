@@ -3,7 +3,7 @@
 //  toDoListTests
 //
 //  Created by Davis Gossage on 11/10/14.
-//  Copyright (c) 2014 Davis Gossage. All rights reserved.
+//  MIT License
 //
 
 #import <UIKit/UIKit.h>
